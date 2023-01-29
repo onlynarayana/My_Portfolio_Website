@@ -173,10 +173,10 @@ function App() {
                 </h1>
               </div>
               <p className="text-lg text-textBase text-center mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente dicta recusandae commodi praesentium officia, aliquam
-                cumque voluptatem dolor enim ducimus id maiores consequatur
-                dolorem!
+                I am constantly on the move, always eager to learn more and
+                educate myself. I hope to gain more knowledge by working highly
+                competitive environment, with experienced people and be a better
+                me
               </p>
               <button
                 className="w-full md:w-auto relative mt-6 inline-flex items-center 

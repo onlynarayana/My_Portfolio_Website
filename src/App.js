@@ -176,7 +176,7 @@ function App() {
                 I am constantly on the move, always eager to learn more and
                 educate myself. I hope to gain more knowledge by working highly
                 competitive environment, with experienced people and be a better
-                me
+                me.
               </p>
               <button
                 className="w-full md:w-auto relative mt-6 inline-flex items-center 

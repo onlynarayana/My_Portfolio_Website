@@ -5,6 +5,8 @@ import {
   IoLogoTwitter,
   IoLogoLinkedin,
   IoLogoWhatsapp,
+  IoMail,
+  IoPhonePortraitOutline,
 } from "react-icons/io5";
 import img1 from "./images/groot store.png";
 import img2 from "./images/the game.png";
@@ -18,22 +20,31 @@ export const Experience = [
     id: 1,
     date: "2022 - present",
     iconsSrc: <IoCodeWorking />,
+    title: "Geeks2Connect",
+    location: "Sitapura, Jaipur (Rajasthan)",
+    description:
+      "React.Js, Next.Js, Redux, JavaScript, TypeScript, MERN-Stack, DSA, Java, Client collaboration and Comunication",
+  },
+  {
+    id: 2,
+    date: "2022 - 2022",
+    iconsSrc: <IoCodeWorking />,
     title: "Newton School",
     location: "Full-Stack Bootcamp, remote",
     description:
       "Full-Stack Developer, MERN-Stack, DSA, Java, Projects work, Comunication",
   },
   {
-    id: 2,
+    id: 3,
     date: "2021 - 2022",
     iconsSrc: <IoCodeWorking />,
-    title: "Shift Engineer",
-    location: "Indian Acrylics Ltd. Sangrur (Punjab)",
+    title: "Software Engineer(Intern)",
+    location: "IAL, Chandigarh",
     description:
-      "Assistant Executive, Creative Direction, Production Management, SQC handling, Team Leading",
+      "Associate Software Engineer, Java, HTML/CSS, Testing, SQC handling, Team Leading",
   },
   {
-    id: 3,
+    id: 4,
     date: "2020 - 2021",
     iconsSrc: <IoCodeWorking />,
     title: "Graduate Engineer Trainee (GET)",
@@ -42,7 +53,7 @@ export const Experience = [
       "Creative Direction, User Experience, Visual Design, Project Management, Team Work",
   },
   {
-    id: 4,
+    id: 5,
     date: "2019",
     iconsSrc: <IoCodeWorking />,
     title: "Internship",
@@ -51,10 +62,10 @@ export const Experience = [
       "Machine Learning, Production, Management, Project Work, Team Leading",
   },
   {
-    id: 5,
+    id: 6,
     date: "2016 - 2020",
     iconsSrc: <IoCodeWorking />,
-    title: "B Tech (TT)",
+    title: "Bechelor Of Technology (TT)",
     location: "M. L. V. Textile and Engineering Collge, Bhilwara (Raj.)",
     description:
       "Management Secretary (MLVTEC), Treasurer (Textile Engineers Socity), Coordinator(workshops and Conferences), Projects, Leadership, Team Building",
@@ -118,25 +129,23 @@ export const Projects = [
 export const SocialLinks = [
   {
     id: 1,
+    iconSrc: (
+      <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
+    ),
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/narayan-mali007/",
+  },
+  {
+    id: 2,
     iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
     name: "GitHub",
     link: "https://github.com/onlynarayana",
   },
   {
-    id: 2,
-    iconSrc: (
-      <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
-    ),
-    name: "LinkedIn",
-    link: "www.linkedin.com/in/narayan-mali007",
-  },
-  {
     id: 3,
-    iconSrc: (
-      <IoLogoInstagram className="text-red-500 text-3xl cursor-pointer" />
-    ),
-    name: "Instagram",
-    link: "https://www.instagram.com/im_abstracter/",
+    iconSrc: <IoMail className="text-yellow-400 text-3xl cursor-pointer" />,
+    name: "Mail to",
+    link: "mailto:iamnarayan007@gmail.com",
   },
   {
     id: 4,
@@ -149,9 +158,25 @@ export const SocialLinks = [
   {
     id: 5,
     iconSrc: (
+      <IoLogoInstagram className="text-red-500 text-3xl cursor-pointer" />
+    ),
+    name: "Instagram",
+    link: "https://www.instagram.com/im_abstracter/",
+  },
+  {
+    id: 6,
+    iconSrc: (
       <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
     ),
     name: "Whatsapp",
-    link: "https://api.whatsapp.com/qr/6TA2BBIV5BLTM1",
+    link: "https://wa.me/+918955447044",
+  },
+  {
+    id: 7,
+    iconSrc: (
+      <IoPhonePortraitOutline className="text-pink-300 text-3xl cursor-pointer" />
+    ),
+    name: "Call me",
+    link: "https://www.sejda.com/call/%2B918955447044",
   },
 ];

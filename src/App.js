@@ -136,7 +136,7 @@ function App() {
           <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
           <div className="absolute bottom-10 w-full flex justify-center items-center">
             <div className="shadow-md p-4 flex flex-col items-center justify-center bg-zinc-900 rounded-3xl ">
-              <p className="text-white">Press and drag to orbit in 3D</p>
+              <p className="text-white">drag orbit in 3D</p>
             </div>
           </div>
         </div>

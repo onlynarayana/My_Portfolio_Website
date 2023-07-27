@@ -18,21 +18,21 @@ import img6 from "./images/jaipur.png";
 export const Experience = [
   {
     id: 1,
-    date: "2022 - present",
+    date: "2023 - present",
+    iconsSrc: <IoCodeWorking />,
+    title: "Memorres Digital Pvt. Ltd.",
+    location: "Vaishali Nagar, Jaipur (Rajasthan)",
+    description:
+      "React.Js, Next.Js, Node.Js, Redux, HTML/CSS, JavaScript, DSA, Java, Client collaboration",
+  },
+  {
+    id: 2,
+    date: "2022 - 2023",
     iconsSrc: <IoCodeWorking />,
     title: "Geeks2Connect",
     location: "Sitapura, Jaipur (Rajasthan)",
     description:
-      "React.Js, Next.Js, Redux, JavaScript, TypeScript, MERN-Stack, DSA, Java, Client collaboration and Comunication",
-  },
-  {
-    id: 2,
-    date: "2022 - 2022",
-    iconsSrc: <IoCodeWorking />,
-    title: "Newton School",
-    location: "Full-Stack Bootcamp, remote",
-    description:
-      "Full-Stack Developer, MERN-Stack, DSA, Java, Projects work, Comunication",
+      "React.Js, Next.Js, Node.Js, Redux, JavaScript, TypeScript, MERN-Stack, DSA, Java, Client collaboration and Comunication",
   },
   {
     id: 3,
@@ -41,10 +41,19 @@ export const Experience = [
     title: "Software Engineer(Intern)",
     location: "IAL, Chandigarh",
     description:
-      "Associate Software Engineer, Java, HTML/CSS, Testing, SQC handling, Team Leading",
+      "Associate Software Engineer, Java, HTML/CSS, Testing, SQC handling, Team building",
   },
   {
     id: 4,
+    date: "2020 - 2021",
+    iconsSrc: <IoCodeWorking />,
+    title: "Newton School",
+    location: "Full-Stack Bootcamp, remote",
+    description:
+      "Full-Stack Developer, MERN-Stack, DSA, Java, Projects work, Comunication",
+  },
+  {
+    id: 5,
     date: "2020 - 2021",
     iconsSrc: <IoCodeWorking />,
     title: "Graduate Engineer Trainee (GET)",
@@ -53,16 +62,16 @@ export const Experience = [
       "Creative Direction, User Experience, Visual Design, Project Management, Team Work",
   },
   {
-    id: 5,
+    id: 6,
     date: "2019",
     iconsSrc: <IoCodeWorking />,
     title: "Internship",
     location: "BSL Ltd. Bhilwara (Raj.)",
     description:
-      "Machine Learning, Production, Management, Project Work, Team Leading",
+      "Machine Learning, Production, Management, Project Work, Team Player",
   },
   {
-    id: 6,
+    id: 7,
     date: "2016 - 2020",
     iconsSrc: <IoCodeWorking />,
     title: "Bechelor Of Technology (TT)",
@@ -177,6 +186,6 @@ export const SocialLinks = [
       <IoPhonePortraitOutline className="text-pink-300 text-3xl cursor-pointer" />
     ),
     name: "Call me",
-    link: "https://www.sejda.com/call/%2B918955447044",
+    link: "tel:+918955447044",
   },
 ];

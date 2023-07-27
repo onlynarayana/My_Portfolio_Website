@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const typingEffect = new Typed(element.current, {
-      strings: ["", "Narayan", "Developer", "Coder"],
+      strings: ["", "Narayan", "Developer", "Coder", "Engineer"],
       loop: true,
       startDelay: 300,
       typeSpeed: 100,
@@ -133,7 +133,8 @@ function App() {
         </nav>
 
         <div className="relative" id="home">
-          <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
+          {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
+          <Spline scene="https://prod.spline.design/ligt3yhVkBfNfGmE/scene.splinecode" />
           <div className="absolute bottom-10 w-full flex justify-center items-center">
             <div className="shadow-md p-4 flex flex-col items-center justify-center bg-zinc-900 rounded-3xl ">
               <p className="text-white">drag orbit in 3D</p>
@@ -249,7 +250,7 @@ function App() {
                     <img
                       src={n.imageSrc}
                       className="w-full h-full object-cover rounded-md my-4"
-                      alt="Screen Image"
+                      alt="Screen-shot"
                     />
                   </a>
                   <div className="flex flex-1 items-center justify-between">

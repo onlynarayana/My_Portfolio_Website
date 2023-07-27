@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30a4d8ad.css",
+    "main.js": "/static/js/main.c2735a65.js",
+    "static/media/facetime.jpg": "/static/media/facetime.d13b2905e984dcd67e2a.jpg",
+    "static/media/jaipur.png": "/static/media/jaipur.fcc66cc40b44de55ece8.png",
+    "static/media/the game.png": "/static/media/the game.fb2544ff7f6b37efdd2f.png",
+    "static/media/stark.png": "/static/media/stark.4631b9b8f6bed9684967.png",
+    "static/media/groot store.png": "/static/media/groot store.9271979a0e61260657c6.png",
+    "static/media/live code editor.png": "/static/media/live code editor.6daef86b3a03017524d2.png",
+    "static/media/sanskrit.png": "/static/media/sanskrit.dea13bba43a15c39a877.png",
+    "index.html": "/index.html",
+    "main.30a4d8ad.css.map": "/static/css/main.30a4d8ad.css.map",
+    "main.c2735a65.js.map": "/static/js/main.c2735a65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a4d8ad.css",
+    "static/js/main.c2735a65.js"
+  ]
+}

@@ -1,4 +1,4 @@
-import { Spline } from "@splinetool/react-spline";
+import Spline from "@splinetool/react-spline";
 import Face from "./images/facetime.jpg";
 import {
   VerticalTimeline,
@@ -47,31 +47,31 @@ function App() {
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
                 href="#home"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
                 About
               </a>
               <a
                 href="#projects"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
                 Projects
               </a>
               <a
                 href="#contacts"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
                 Contact
               </a>
               <a
                 href="https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing"
-                className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+                className="ml-auto text-base text-slate-200 font-medium hover:text-slate-100 cursor-pointer border border-textSmoke px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
               </a>
@@ -94,35 +94,35 @@ function App() {
               >
                 <a
                   href="#home"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                  className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                  className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   About
                 </a>
                 <a
                   href="#projects"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                  className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Projects
                 </a>
                 <a
                   href="#contacts"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                  className="text-base text-textSmoke font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Contact
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+                  className="text-base text-slate-200 font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Download
@@ -133,8 +133,8 @@ function App() {
         </nav>
 
         <div className="relative" id="home">
-          <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
-          {/* <Spline scene="https://prod.spline.design/ligt3yhVkBfNfGmE/scene.splinecode" /> */}
+          {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
+          <Spline scene="https://prod.spline.design/UGYQVa9UuYiAXE7v/scene.splinecode" />
           <div className="absolute bottom-10 w-full flex justify-center items-center">
             <div className="shadow-md p-4 flex flex-col items-center justify-center bg-zinc-900 rounded-3xl ">
               <p className="text-white">drag orbit in 3D</p>
@@ -173,7 +173,7 @@ function App() {
                   </span>
                 </h1>
               </div>
-              <p className="text-lg text-textBase text-center mt-4">
+              <p className="text-lg text-textSmoke text-center mt-4">
                 I am constantly on the move, always eager to learn more and
                 educate myself. I hope to gain more knowledge by working highly
                 competitive environment, with experienced people and be a better
@@ -221,7 +221,7 @@ function App() {
                     iconStyle={{ background: "rgb(21, 24, 31)", color: "#888" }}
                     icon={n.iconsSrc}
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="text-textSmoke vertical-timeline-element-title">
                       {n.title}
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">

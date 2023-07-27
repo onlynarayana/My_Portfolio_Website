@@ -21,7 +21,7 @@ export const Experience = [
     date: "2023 - present",
     iconsSrc: <IoCodeWorking />,
     title: "Memorres Digital Pvt. Ltd.",
-    location: "Vaishali Nagar, Jaipur (Rajasthan)",
+    location: "Vaishali Estate, Jaipur (Rajasthan)",
     description:
       "React.Js, Next.Js, Node.Js, Redux, HTML/CSS, JavaScript, DSA, Java, Client collaboration",
   },

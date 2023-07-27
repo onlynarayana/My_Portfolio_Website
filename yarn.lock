@@ -1469,17 +1469,21 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@splinetool/react-spline@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@splinetool/react-spline/-/react-spline-0.0.8.tgz#0970e3e24a5fe599effa4b60f736241fe40abf1d"
-  integrity sha512-zLg3bogjR3ZLaZAwmfbqabxW2QtrMEiVMR7EeIwzRGdmcvaiBdFyAHpMmss5I6ziDA8GfqJp+2m1hQO2Y96RLw==
+"@splinetool/react-spline@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@splinetool/react-spline/-/react-spline-2.2.6.tgz#c48f634f352311b9da210978f88bd195d605ee8a"
+  integrity sha512-y9L2VEbnC6FNZZu8XMmWM9YTTTWal6kJVfP05Amf0QqDNzCSumKsJxZyGUODvuCmiAvy0PfIfEsiVKnSxvhsDw==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    react-merge-refs "^2.0.1"
 
-"@splinetool/runtime@^0.9.1":
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.1.tgz#ad6f5cf539087e5d1cd6ba5daf34a700c50948e8"
-  integrity sha512-rr3dT716e/D3tbASU2nPmDcPB62P6lI1Ewi6+MNPCMwnq1R81MJVOUcnfI7MTvV0dzFc3yCbQUR1swZmGLVRkg==
+"@splinetool/runtime@^0.9.402":
+  version "0.9.402"
+  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.402.tgz#bd83580fc710c82deb6fff08596427016d47f210"
+  integrity sha512-E8Malcje7CP3Mg74bMd3uk8nzD75gM0RU4VGftLdNCTET/kdvpVSOaaH3dMC8HIZUk+8FhOOGqit/D8WvrqG1g==
   dependencies:
     on-change "^4.0.0"
+    semver-compare "^1.0.0"
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
@@ -7125,6 +7129,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-merge-refs@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-2.0.2.tgz#73f576111124897dec4ea56035a97e199e8cb377"
+  integrity sha512-V5BGTwGa2r+/t0A/BZMS6L7VPXY0CU8xtAhkT3XUoI1WJJhhtvulvoiZkJ5Jt9YAW23m4xFWmhQ+C5HwjtTFhQ==
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -7530,6 +7539,11 @@ selfsigned@^2.0.0:
   integrity sha512-cUdFiCbKoa1mZ6osuJs2uDHrs0k0oprsKveFiiaBKCNq3SYyb5gs2HxhQyDNLCmL51ZZThqi4YNDpCK6GOP1iQ==
   dependencies:
     node-forge "^1.2.0"
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
 
 semver@7.0.0:
   version "7.0.0"

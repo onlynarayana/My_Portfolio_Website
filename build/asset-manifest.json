@@ -1,7 +1,12 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.a5b6b913.css",
     "main.js": "/static/js/main.8b09355e.js",
+=======
+    "main.css": "/static/css/main.30a4d8ad.css",
+    "main.js": "/static/js/main.c2735a65.js",
+>>>>>>> e4033a72d0f97ff0ffe128d7b42211b392f14618
     "static/media/facetime.jpg": "/static/media/facetime.d13b2905e984dcd67e2a.jpg",
     "static/media/jaipur.png": "/static/media/jaipur.fcc66cc40b44de55ece8.png",
     "static/media/the game.png": "/static/media/the game.fb2544ff7f6b37efdd2f.png",
@@ -10,11 +15,20 @@
     "static/media/live code editor.png": "/static/media/live code editor.6daef86b3a03017524d2.png",
     "static/media/sanskrit.png": "/static/media/sanskrit.dea13bba43a15c39a877.png",
     "index.html": "/index.html",
+<<<<<<< HEAD
     "main.a5b6b913.css.map": "/static/css/main.a5b6b913.css.map",
     "main.8b09355e.js.map": "/static/js/main.8b09355e.js.map"
   },
   "entrypoints": [
     "static/css/main.a5b6b913.css",
     "static/js/main.8b09355e.js"
+=======
+    "main.30a4d8ad.css.map": "/static/css/main.30a4d8ad.css.map",
+    "main.c2735a65.js.map": "/static/js/main.c2735a65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a4d8ad.css",
+    "static/js/main.c2735a65.js"
+>>>>>>> e4033a72d0f97ff0ffe128d7b42211b392f14618
   ]
 }

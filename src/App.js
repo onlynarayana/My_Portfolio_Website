@@ -28,15 +28,6 @@ function App() {
     });
   }, []);
 
-  // const goTo = () => {
-  //   return (
-  //     <a href="https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing"></a>
-  //   );
-  // };
-  // useEffect(() => {
-  //   goTo();
-  // }, []);
-
   return (
     <AnimatePresence initial={false}>
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
@@ -70,7 +61,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lbReFoxDNFP2eAOeMCAYPn-AqVO3KJY2/view?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
@@ -121,7 +112,7 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1lbReFoxDNFP2eAOeMCAYPn-AqVO3KJY2/view?usp=sharing"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
@@ -189,7 +180,7 @@ function App() {
                 onClick={(e) => {
                   e.preventDefault();
                   window.location.href =
-                    "https://drive.google.com/file/d/1D4-Hgf8J3rQhqsmSUpCQ4ATX8CMRW3KF/view?usp=sharing";
+                    "https://drive.google.com/file/d/1lbReFoxDNFP2eAOeMCAYPn-AqVO3KJY2/view?usp=sharing";
                 }}
               >
                 <span
